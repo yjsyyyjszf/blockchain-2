@@ -6,8 +6,8 @@
 #include "time.h"
 
 #include "hash.h"
-#include "Block.h"
-#include "Blockchain.h"
+#include "block.h"
+#include "blockchain.h"
 
 const unsigned int SHA256::sha256_k[64] = //UL = uint32
         {0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5,
